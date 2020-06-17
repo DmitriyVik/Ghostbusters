@@ -145,6 +145,7 @@ body {
   }
 
   &__subtitle {
+    font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     color: #a5a5a5;
@@ -228,5 +229,68 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: #363636;
+  }
+}
+.actors {
+  padding: 70px 0 100px 0;
+  &__tabs {
+    margin-bottom: 60px;
+  }
+
+  &__tab {
+    font-size: 24px;
+    line-height: 28px;
+    color: #a5a5a5;
+  }
+
+  &__tab--active {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363636;
+  }
+
+  &__wrap {
+  }
+
+  &__person {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    flex: 0 1 25%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+
+  &__image {
+  }
+
+  &__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+
+  &__name {
+    margin-left: 20px;
+  }
+
+  &__name-ru {
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5671f6;
+  }
+
+  &__name-en {
+    font-size: 16px;
+    line-height: 19px;
+    color: #a5a5a5;
   }
 }

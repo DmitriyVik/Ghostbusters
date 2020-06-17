@@ -164,6 +164,7 @@ body {
 }
 
 .hero__subtitle {
+  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   color: #a5a5a5;
@@ -266,4 +267,73 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #363636;
+}
+
+.actors {
+  padding: 70px 0 100px 0;
+}
+
+.actors__tabs {
+  margin-bottom: 60px;
+}
+
+.actors__tab {
+  font-size: 24px;
+  line-height: 28px;
+  color: #a5a5a5;
+}
+
+.actors__tab--active {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  color: #363636;
+}
+
+.actors__person {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.actors__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 35px;
+}
+
+.actors__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.actors__name {
+  margin-left: 20px;
+}
+
+.actors__name-ru {
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5671f6;
+}
+
+.actors__name-en {
+  font-size: 16px;
+  line-height: 19px;
+  color: #a5a5a5;
 }
