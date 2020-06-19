@@ -140,20 +140,21 @@ body {
   &__video {
     width: 358px;
     height: 75px;
-    background-color: transparent;
+    // background-color: transparent;
     border: 1px solid #d4d4d4;
     border-radius: 0px 0px 5px 5px;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+    // text-decoration: none;
     &-play {
       margin-right: 14px;
-      vertical-align: middle;
+      // vertical-align: middle;
     }
 
     &-text {
-      vertical-align: middle;
+      // vertical-align: middle;
       font-size: 16px;
       line-height: 19px;
       color: #5671f6;

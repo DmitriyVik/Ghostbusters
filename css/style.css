@@ -171,19 +171,25 @@ body {
 .hero__video {
   width: 358px;
   height: 75px;
-  background-color: transparent;
   border: 1px solid #d4d4d4;
   border-radius: 0px 0px 5px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   cursor: pointer;
 }
 
 .hero__video-play {
   margin-right: 14px;
-  vertical-align: middle;
 }
 
 .hero__video-text {
-  vertical-align: middle;
   font-size: 16px;
   line-height: 19px;
   color: #5671f6;
